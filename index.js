@@ -28,25 +28,25 @@ app.use(express.json()); // Enable JSON req.body parsing
  *               digits (0-9), and special characters (!@#$%^&*()_+-=[]{};':"|,./<>?). It is important to keep this key
  *               confidential and secure to ensure the integrity and security of the system.
  */
-const secretKey = 'SDBsdBt67dsbt67adbt6d9^(bs97R&^&^IR#Rb83rxo83or6';
+const secretKey = '';
 /**
  * Represents the owner of the bot.
  *
  * @type {string}
  */
-const botOwner = 'youtheman12221'; // replace with your Twitch username
+const botOwner = ''; // replace with your Twitch username
 /**
  * Represents the username of the bot.
  *
  * @type {string}
  */
-const botUsername = 'theyouthemanbot'; // replace with your bot's username
+const botUsername = ''; // replace with your bot's username
 /**
  * Represents the authentication token for the bot.
  *
  * @type {string}
  */
-const botToken = 'oauth:4t61p2m3xnj0sor87u9pn1u5l4padv'; // replace with your bot's oauth token
+const botToken = 'oauth:'; // replace with your bot's oauth token
 /**
  * Represents the main channel that the bot is associated with.
  *
@@ -64,7 +64,7 @@ const channelsFile = path.join(__dirname, 'channels.json');
  *
  * @type {string}
  */
-const apiUrl = 'https://multichat.test/api'
+const apiUrl = 'https://randomtwitch.chat/api'
 
 // Read channels from JSON file
 /**
