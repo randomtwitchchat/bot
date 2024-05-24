@@ -60,7 +60,7 @@ const mainChannel = botUsername; // replace with the bot's main channel
  */
 const channelsFile = path.join(__dirname, 'channels.json');
 /**
- * URL of the API endpoint for accessing the MultiChat application.
+ * URL of the API endpoint for accessing the RandomChat application.
  *
  * @type {string}
  */
